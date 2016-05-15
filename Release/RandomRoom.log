@@ -1,0 +1,55 @@
+﻿Build started 15.05.2016 17.38.06.
+     1>Project "H:\Github\aiVac\RandomRoom.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt aStar.cpp main.cpp unexploredFinder.cpp Vacuum.cpp
+         aStar.cpp
+     1>aStar.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>aStar.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>aStar.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>aStar.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>aStar.cpp(109): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>aStar.cpp(110): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>aStar.cpp(129): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>aStar.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>aStar.cpp(135): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>aStar.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+     1>aStar.cpp(166): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>aStar.cpp(167): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>aStar.cpp(237): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>main.cpp(182): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>main.cpp(358): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>main.cpp(368): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(369): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(409): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(410): warning C4018: '<' : signed/unsigned mismatch
+         unexploredFinder.cpp
+     1>unexploredFinder.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>unexploredFinder.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>unexploredFinder.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>unexploredFinder.cpp(170): warning C4018: '<' : signed/unsigned mismatch
+     1>unexploredFinder.cpp(184): warning C4018: '>=' : signed/unsigned mismatch
+         Vacuum.cpp
+     1>Vacuum.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>Vacuum.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>Vacuum.cpp(85): warning C4018: '>=' : signed/unsigned mismatch
+     1>Vacuum.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>Vacuum.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>Vacuum.cpp(200): warning C4018: '>=' : signed/unsigned mismatch
+     1>Vacuum.cpp(202): warning C4018: '>=' : signed/unsigned mismatch
+     1>Vacuum.cpp(216): warning C4018: '<' : signed/unsigned mismatch
+     1>Vacuum.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>Vacuum.cpp(254): warning C4018: '>=' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Github\aiVac\Release\RandomRoom.exe" /INCREMENTAL:NO /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Github\aiVac\Release\RandomRoom.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Github\aiVac\Release\RandomRoom.lib" /MACHINE:X86 /SAFESEH Release\aStar.obj
+         Release\main.obj
+         Release\unexploredFinder.obj
+         Release\Vacuum.obj
+         Generating code
+         Finished generating code
+         RandomRoom.vcxproj -> H:\Github\aiVac\Release\RandomRoom.exe
+     1>Done Building Project "H:\Github\aiVac\RandomRoom.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.06

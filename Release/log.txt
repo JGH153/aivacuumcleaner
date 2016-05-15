@@ -1,0 +1,29 @@
+Log  for run on map of sizze: 14x15
+
+Poops on map: 1
+robot->status: ALL EXPLORED
+Completed runs: 1
+Num Moves:218
+Num Cycles: 647
+Num Unknown Cells Explored: 178
+Power LVL: 370
+Efficiency: 81.6514%
+
+Poops on map: 1
+robot->status: ALL EXPLORED
+Completed runs: 2
+Num Moves:215
+Num Cycles: 478
+Num Unknown Cells Explored: 178
+Power LVL: 410
+Efficiency: 82.7907%
+
+Poops on map: 2
+robot->status: ALL EXPLORED
+Completed runs: 3
+Num Moves:218
+Num Cycles: 488
+Num Unknown Cells Explored: 178
+Power LVL: 448
+Efficiency: 81.6514%
+
